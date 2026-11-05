@@ -1,0 +1,36 @@
+{
+  "gui_verified": false,
+  "limitations": [
+    "設定上の対応はBlender 4.2以降ですが、4.2系の実機動作は未検証です。",
+    "Windows・Linux、GUIのボタン操作、対話的Undoは今回未検証です。",
+    "相対シェイプキー専用で、編集モードや編集不可のライブラリデータは対象外です。",
+    "全ONはBasis以外を値1・ミュート解除にする機能で、スライダー範囲内に制限されます。",
+    "アニメーションやドライバーが値を制御している場合、再評価で状態が上書きされることがあります。",
+    "共有データは切替時に独立化するため、その後の形状編集も元データと連動しなくなります。",
+    "セット内のキーは名前で照合します。キー名を変えた場合はセットを保存し直してください。"
+  ],
+  "passed": true,
+  "results": [
+    {
+      "blender": "5.0.0",
+      "functional_tests": 12,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    },
+    {
+      "blender": "5.1.1",
+      "functional_tests": 12,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    },
+    {
+      "blender": "5.2.2 LTS",
+      "functional_tests": 12,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    }
+  ]
+}

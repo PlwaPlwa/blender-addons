@@ -1,0 +1,9 @@
+{
+  "imports": [
+    {
+      "kind": "blender",
+      "module": "bpy"
+    }
+  ],
+  "third_party_review_complete": true
+}

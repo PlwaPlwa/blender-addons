@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "shape_key_sets"
+version = "1.2.1"
+name = "Shape Key Sets"
+tagline = "Store multiple shape key states per object and switch instantly"
+maintainer = "Codex"
+type = "add-on"
+tags = ["Animation", "Object"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
