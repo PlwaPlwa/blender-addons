@@ -1,0 +1,30 @@
+{
+  "gui_verified": false,
+  "limitations": [
+    "対象は1列につながる四角形の帯です。分岐・複数列・帯自体のNGONには対応しません。",
+    "幅は横断エッジ両端のワールド直線距離で、表面に沿った長さではありません。",
+    "取得幅より細い箇所は正の頂点法線方向へ動くため、平面では面から浮く変形になります。",
+    "移動頂点を共有する側壁などの面も形が変わります。",
+    "複数オブジェクトの同時編集、共有メッシュ、リンク・オーバーライド・読み取り専用データには対応しません。",
+    "絶対シェイプキー、Windows・Linux、全Blender 5.x、保存再読み込み後の継続操作は未検証です。",
+    "あらゆる自己交差や他物体との衝突を検出する機能ではありません。",
+    "今回はバックグラウンド検証です。開発時のGUI・Undo確認とスクリーンショット撮影は参照チャット・検証記録に基づきます。"
+  ],
+  "passed": true,
+  "results": [
+    {
+      "blender": "5.0.0",
+      "functional_tests": 43,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    },
+    {
+      "blender": "5.2.2 LTS",
+      "functional_tests": 43,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    }
+  ]
+}

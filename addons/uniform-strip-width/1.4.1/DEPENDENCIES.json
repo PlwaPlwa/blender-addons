@@ -1,0 +1,21 @@
+{
+  "imports": [
+    {
+      "kind": "blender",
+      "module": "bmesh"
+    },
+    {
+      "kind": "blender",
+      "module": "bpy"
+    },
+    {
+      "kind": "stdlib-or-internal",
+      "module": "math"
+    },
+    {
+      "kind": "blender",
+      "module": "mathutils"
+    }
+  ],
+  "third_party_review_complete": true
+}
