@@ -1,0 +1,13 @@
+{
+  "imports": [
+    {
+      "kind": "blender",
+      "module": "bmesh"
+    },
+    {
+      "kind": "blender",
+      "module": "bpy"
+    }
+  ],
+  "third_party_review_complete": true
+}

@@ -1,0 +1,40 @@
+{
+  "blender_min": "5.0.0",
+  "changelog": [
+    "1.1.0：右クリックから1.0または0.0へ設定する配布版。",
+    "ソースの機能を変えず、Blender 5.2.2 LTSで追加検証。"
+  ],
+  "features": [
+    "エッジ選択モードの右クリックメニューに1.0と0.0の設定項目を追加します。",
+    "ダイアログや数値入力なしで、選択エッジだけを即時変更します。",
+    "未選択エッジの既存ウェイトは保持します。",
+    "必要なEDGE/FLOATのbevel_weight_edge属性がなければ作成します。",
+    "複数オブジェクトの同時編集に対応し、共有メッシュは一度だけ処理します。",
+    "Blender標準のUndoを利用する宣言を持ちます。"
+  ],
+  "format": "legacy",
+  "id": "bevel-weight-quick-set",
+  "license": "GPL-3.0-or-later",
+  "license_confirmed": true,
+  "limitations": [
+    "5.0.0のGUIメニュー・Undo確認はユーザー提供の検証記録に基づきます。",
+    "5.2.2 LTSは今回バックグラウンドで機能を検証し、実際のGUIクリック・Undoは未検証です。",
+    "WindowsとLinuxは今回未検証です。",
+    "メニューとツールチップは英語です。",
+    "属性を新規作成した場合、未選択エッジの値は新規属性の既定値0.0になります。",
+    "ウェイトを変更する機能であり、ベベル形状自体を追加するものではありません。"
+  ],
+  "name": "Bevel Weight Quick Set",
+  "repo_subdir": "addons/bevel-weight-quick-set/1.1.0",
+  "repository": "PlwaPlwa/blender-addons",
+  "summary": "選択エッジのベベルウェイトを右クリックメニューから1.0または0.0に設定できるアドオンです。",
+  "tag": "bevel-weight-quick-set-v1.1.0",
+  "usage": [
+    "配布されているbevel_weight_one.pyを保存します。",
+    "PreferencesのAdd-onsでInstall from Diskを選び、bevel_weight_one.pyをインストールして有効化します。",
+    "メッシュを編集モードにし、エッジ選択を有効にして対象エッジを選びます。",
+    "3Dビューを右クリックし、Set Bevel Weight to 1.0またはSet Bevel Weight to 0.0を選びます。"
+  ],
+  "version": "1.1.0",
+  "zip_name": "bevel-weight-quick-set-v1.1.0.zip"
+}

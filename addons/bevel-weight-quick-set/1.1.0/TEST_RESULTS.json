@@ -1,0 +1,28 @@
+{
+  "gui_verified": false,
+  "limitations": [
+    "5.0.0のGUIメニュー・Undo確認はユーザー提供の検証記録に基づきます。",
+    "5.2.2 LTSは今回バックグラウンドで機能を検証し、実際のGUIクリック・Undoは未検証です。",
+    "WindowsとLinuxは今回未検証です。",
+    "メニューとツールチップは英語です。",
+    "属性を新規作成した場合、未選択エッジの値は新規属性の既定値0.0になります。",
+    "ウェイトを変更する機能であり、ベベル形状自体を追加するものではありません。"
+  ],
+  "passed": true,
+  "results": [
+    {
+      "blender": "5.0.0",
+      "functional_tests": 25,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    },
+    {
+      "blender": "5.2.2 LTS",
+      "functional_tests": 25,
+      "install_and_register_tests": 3,
+      "passed": true,
+      "platform": "darwin"
+    }
+  ]
+}
